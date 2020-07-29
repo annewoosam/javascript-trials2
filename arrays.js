@@ -110,3 +110,12 @@ function smallestNItems(items, n) {
 // expectation 4,1
 // smallestNItems([1, 30, 4, 21, 100000],3)
 // expectation 21,4,1
+
+
+//even simpler solution stacking methods from solutions guide
+///function smallestNItems(items, n) {
+//   const sortedItems = items.sort((a, b) => a - b).slice(0, n);
+//   sortedItems.reverse();
+
+//   console.log(sortedItems);
+// }
